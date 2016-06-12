@@ -61,7 +61,14 @@
     <Compile Include="Migrations\201606120700015_InitialModel.Designer.cs">
       <DependentUpon>201606120700015_InitialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201606121048332_CreateGigTable.cs" />
+    <Compile Include="Migrations\201606121048332_CreateGigTable.Designer.cs">
+      <DependentUpon>201606121048332_CreateGigTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\ApplicationUser.cs" />
+    <Compile Include="Models\Genre.cs" />
+    <Compile Include="Models\Gig.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -72,6 +79,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201606120700015_InitialModel.resx">
       <DependentUpon>201606120700015_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606121048332_CreateGigTable.resx">
+      <DependentUpon>201606121048332_CreateGigTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

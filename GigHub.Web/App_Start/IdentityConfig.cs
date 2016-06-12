@@ -1,12 +1,12 @@
-﻿using System;
-using System.Security.Claims;
-using System.Threading.Tasks;
+﻿using GigHub.DataLayer.Models;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
-using GigHub.DataLayer.Models;
+using System;
+using System.Security.Claims;
+using System.Threading.Tasks;
 
 namespace GigHub.Web
 {
