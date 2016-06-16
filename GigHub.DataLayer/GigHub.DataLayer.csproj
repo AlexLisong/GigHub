@@ -69,6 +69,10 @@
     <Compile Include="Migrations\201606161822512_OverrideConventionsForGigsAndGenres.Designer.cs">
       <DependentUpon>201606161822512_OverrideConventionsForGigsAndGenres.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201606161839007_PopulateGenresTable.cs" />
+    <Compile Include="Migrations\201606161839007_PopulateGenresTable.Designer.cs">
+      <DependentUpon>201606161839007_PopulateGenresTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\Genre.cs" />
@@ -89,6 +93,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201606161822512_OverrideConventionsForGigsAndGenres.resx">
       <DependentUpon>201606161822512_OverrideConventionsForGigsAndGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606161839007_PopulateGenresTable.resx">
+      <DependentUpon>201606161839007_PopulateGenresTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
