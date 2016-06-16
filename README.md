@@ -1,4 +1,4 @@
 GigHub
 =========
 
-Implementaion in the PluralSight Full-stack .NET Developer course
+Implementation of the PluralSight Full-stack .NET Developer course
