@@ -16,7 +16,6 @@ namespace GigHub.DataLayer.Models
         [StringLength(255)]
         public string Venue { get; set; }
 
-
         [Required]
         public Genre Genre { get; set; }
     }
